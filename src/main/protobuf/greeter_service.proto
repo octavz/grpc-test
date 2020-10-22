@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package org.example.repro;
+
+import "models.proto";
+
+// The greeting service definition.
+service GreeterService {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
